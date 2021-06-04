@@ -568,6 +568,7 @@ div.loading img {
 
 .wd-btn-group {
   margin-left: 10px;
+  margin-top: 24px;
 }
 .wd-btn-group input {
   border-color: #ececec;
@@ -651,7 +652,6 @@ div.loading img {
 }
 .account-section {
 	display: inline-block;
-	margin-top: 4px;
 }
 .header-cart .header-wishlist {
 	font-size: 22px;
@@ -707,9 +707,10 @@ div.loading img {
   margin: 0;
   background: transparent;
   border-color: transparent;
-transform: translateY(-5px);
+  transform: translateY(-5px);
   cursor: pointer;
     position: relative;
+    font-size: 25px;
 }
 .header-cart.style-four .wd-compare-btn .compare-btn {
 transform: translateY(0px);
@@ -1130,6 +1131,10 @@ transform: translateY(0px);
   	Social Media List Style
   */
 }
+#header1{
+  padding-right: 0px;
+  margin-right: 0px;
+}
 .wb-social-media a {
 	display: inline-block;
 	margin-right: 4px;
@@ -1385,15 +1390,6 @@ a.yt{background: #ff0000}
 }
 
 
-
-/*===========
-Logo
-=================*/
-#wd-header .second-home-main-logo img{
-  width: 60%;
-  height: 100px;
-  padding: 10px 0px;
-}
 /*
 	==================
 	Second Home
@@ -1877,9 +1873,7 @@ Logo
   font-weight: 400;
   color: #333;
 }
-.wd-megamenu .wd-megamenu-ul{
-  margin-left: 300px !important;
-}
+
 
 #main-menu-2 .wd-megamenu .main-menu-list i,
 #main-menu .wd-megamenu .main-menu-list i {
@@ -2124,7 +2118,9 @@ Logo
   #main-menu-2 .wd-megamenu .main-menu-list,
   #main-menu .wd-megamenu .main-menu-list {
     font-size: 15px;
-    padding: 15px;
+    padding: 8px;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 
   .second-home #main-menu-2 .wd-megamenu .main-menu-list,
@@ -2242,6 +2238,32 @@ i.fa.fa-envelope {
 .copyright p, .copyright a {
   display: inline-block;
 }
+
+
+/*==============================
+    header2
+=============================*/
+.header2{
+  display: inline;
+  float: center;
+}
+.header2 .main-menu-list1{
+  padding: 0px 7px;
+  font-size: 12px;
+  color: #666;
+  border-right: 1px solid rgb(218, 216, 216);
+
+}
+.header2 .main-menu-list1:hover{
+  color: #ff9800;
+}
+
+
+
+
+
+
+
 
 /*
 	=================================
@@ -2810,7 +2832,7 @@ h5.mb-2 {
   font-family: "Roboto", sans-serif;
 }
 .card-link span {
-  padding: 18px;
+  padding: 16px;
   background-color: #d4d1d1;
   color: #000;
   font-size: 18px;
@@ -2823,7 +2845,6 @@ h5.mb-2 {
 #accordion .lead{
   font-family: "Roboto", sans-serif;
   font-size: 17px;
-  text-align: center;
 }
 
 
@@ -6386,7 +6407,8 @@ padding-top: 10px;
   color: #ff9800;
 }
 .blog-section .blog-content {
-  color: #999999;
+  color: rgb(87, 86, 86);
+  font-size: 14px;
 }
 .blog-section .raed-more {
   margin-top: 30px;
@@ -8232,8 +8254,7 @@ padding-top: 10px;
     font-size: 11px;
   }
 .wb-social-media {
-	text-align: center;
-	padding-left: 10px;
+	padding-left: 0px;
 	margin-bottom: 10px;
 }
 .wb-social-media a {
@@ -9803,6 +9824,7 @@ box-shadow: 8px 3px 21px 0px rgba(0,0,0,0.22);
 	float: right;
 	padding-top: 9px;
 	padding-right: 17px;
+  margin-top: 24px;
 }
 .slider-bg {
 	
@@ -9843,8 +9865,8 @@ display: none
 }
 
  #wd-header {
-    padding: 23px 0;
     background: #fff;
+    padding-top: 24px;
   }
 
 .search-input {
@@ -9893,6 +9915,7 @@ display: none
 .blrub-logo {
 	margin: 0px 0;
 }
+
 .account-and-search, .header-cart {
 	top: 10px !important;
 	text-align: right;
@@ -10102,7 +10125,7 @@ display: none
 	font-size: 14px;
 }
     .blrub-logo img {
-        width: 109px;
+        width: 100px;
     }
     .header-search-option {
 	margin:0px;
@@ -10167,6 +10190,11 @@ display: none
 }
 .language-and-currency-btn {
 	float: right;
+}
+#header3{
+  padding-left: 0px;
+  margin-left: 0px;
+  padding-right: 0px;
 }
 #offer-time .offer-btn {
 	padding-top: 0px;
@@ -11267,9 +11295,7 @@ display: none
 	font-size: 10px;
 	line-height: 13px;
 }
-    .serch-wrapper {
-	margin-top: 4px;
-}
+
     .wd-compare-btn .count {
 	top: -3px;
 }
